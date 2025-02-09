@@ -8,7 +8,7 @@
 
 body {
   font-family: "Varela Round", "Quicksand", sans-serif;
-  background: url(image.png) no-repeat center center fixed;
+  background: url(bk.png) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
   height: 100vh;
@@ -95,10 +95,25 @@ p span {
 p {
   font-size: 22px;
   font-family: cursive;
-  font-weight: 540;
+  font-weight: 50;
 }
 
 .hehe {
   font-size: 25px;
   text-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+
+  .postcard, .postcard1 {
+    padding: 0.5em;
+  }
 }
