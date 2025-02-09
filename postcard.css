@@ -8,7 +8,7 @@
 
 body {
   font-family: "Varela Round", "Quicksand", sans-serif;
-  background: url(bk.png) no-repeat center center fixed;
+  background: url(background.png) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
   height: 100vh;
