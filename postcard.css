@@ -103,6 +103,11 @@ p {
   text-shadow: 0 0 20px rgb(255, 255, 255);
 }
 
+.element {
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+}
 
 @media (max-width: 480px) {
   h1 {
@@ -110,10 +115,17 @@ p {
   }
   
   footer p {
-    font-size: 1em;
+    font-size: 0.5em;
   }
 
   .postcard, .postcard1 {
     padding: 0.5em;
   }
+  
+  .element {
+    background-size: 100% 100%;
+  }
+  
 }
+
+
