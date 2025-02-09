@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
 body {
   height: 100%;
   width: 100%;
   background: #ea81ae;
   overflow: hidden;
-  text-align: center;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  font-family: 'Indie Flower', cursive;
 }
 
 .container {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  text-align: center;
 }
 
 .glass {
@@ -30,6 +31,40 @@ body {
   top: 55px;
   transition: all 0.5s ease-out;
 }
+
+/* Styling for the rest of the rose, petals, thorns, and leaves */
+
+/* Text and Button styling */
+.text {
+  font-family: cursive;
+  font-weight: 800;
+  font-size: 25px;
+  color: rgb(245, 20, 84);
+  text-shadow: 0 0 20px rgb(241, 94, 106);
+  margin-top: 20px;
+}
+
+.text a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background: #d52d58;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.text a:hover {
+  background: #ab1a3f;
+  transform: scale(1.1);
+  text-shadow: 0 0 15px rgb(235, 25, 42);
+}
+
+
+
+
 .petals > div:nth-child(1) {
   border-radius: 15px;
   box-shadow: 0px 0px 30px #f594b8;
