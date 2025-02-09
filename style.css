@@ -18,6 +18,8 @@ body {
 .glass {
   height: 350px;
   width: 200px;
+  filter: blur(2px); /* Standard */
+  -webkit-filter: blur(2px); /* For older Webkit browsers */
 }
 
 .petals > div {
