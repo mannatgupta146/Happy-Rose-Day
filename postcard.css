@@ -28,7 +28,7 @@ body {
   box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
   transform: rotate(2.5deg);
   transition: all 0.5s ease;
-  text-align: justify; 
+  text-align: justify;
 }
 
 .postcard1 {
@@ -103,42 +103,29 @@ p {
   text-shadow: 0 0 20px rgb(255, 255, 255);
 }
 
-
-
-/* Mobile Styles */
 @media (max-width: 480px) {
   body {
-    background: url(image.png) no-repeat center center;
+    background: url(image.png) no-repeat center center fixed;
     background-size: cover;
-    background-attachment: scroll;
+    overflow-x: hidden; /* Avoids horizontal scroll */
     min-height: 100vh;
   }
 
   h1 {
-    font-size: 2em;
-    margin-top: 7vh;
-  }
-
-  .postcard {
-    width: 90%;
-    padding: 1.5em;
-    transform: none;
-    margin-top: 15vh;
-  }
-
-  .postcard1 {
-    width: 90%;
-    left: 50%;
-    transform: translateX(-50%);
-    height: auto;
-    margin-top: 15vh;
-  }
-
-  .mail_stamp {
-    width: 60px;
+    font-size: 2em; /* Smaller heading for mobile */
   }
 
   footer p {
-    font-size: 1em;
+    font-size: 1em; /* Smaller footer text */
+  }
+
+  .postcard, .postcard1 {
+    padding: 1.5em; /* Adjust padding for mobile */
+    margin-top: 10vh; /* Adds space from the top */
+    max-width: 90%; /* Ensure it fits better on small screens */
+  }
+
+  .mail_stamp {
+    width: 70px; /* Reduce the size of mail stamp for mobile */
   }
 }
