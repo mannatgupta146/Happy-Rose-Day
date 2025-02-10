@@ -104,7 +104,7 @@ p {
 }
 
 .element {
-  background: url('background.png') no-repeat center center fixed;
+  background: url('image.png') no-repeat center center fixed;
   background-size: cover;
   background-position: center;
 }
