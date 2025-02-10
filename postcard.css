@@ -119,13 +119,22 @@ p {
     font-size: 1em; /* Smaller footer text */
   }
 
-  .postcard, .postcard1 {
-    padding: 1.5em; /* Adjust padding for mobile */
-    margin-top: 10vh; /* Adds space from the top */
-    max-width: 90%; /* Ensure it fits better on small screens */
+  .postcard {
+    width: 90%;
+    padding: 1.5em;
+    transform: none;
+    margin-top: 12vh; /* Increased gap */
+  }
+
+  .postcard1 {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    margin-top: 12vh; /* Increased gap */
   }
 
   .mail_stamp {
-    width: 70px; /* Reduce the size of mail stamp for mobile */
+    width: 60px; /* Reduce the size of mail stamp for mobile */
   }
 }
