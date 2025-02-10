@@ -127,7 +127,6 @@ p {
     padding: 1.5em;
     box-sizing: border-box;
     text-align: justify;
-    overflow: hidden;
     word-wrap: break-word;
   }
 
