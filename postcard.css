@@ -125,7 +125,6 @@ p {
     max-width: 350px;
     min-height: 650px;
     padding: 1.5em;
-    margin-top: 7vh;
     box-sizing: border-box;
     text-align: justify;
     overflow: hidden;
@@ -137,7 +136,6 @@ p {
     left: 50%;
     transform: translateX(-50%);
     height: auto;
-    margin-top:7vh;
     box-sizing: border-box;
   }
 
