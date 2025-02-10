@@ -123,6 +123,7 @@ p {
     width: 90%;
     padding: 1.5em;
     transform: none;
+    margin-top: 15vh;
   }
 
   .postcard1 {
@@ -130,6 +131,7 @@ p {
     left: 50%;
     transform: translateX(-50%);
     height: auto;
+    margin-top: 15vh;
   }
 
   .mail_stamp {
