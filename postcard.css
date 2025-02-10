@@ -103,13 +103,17 @@ p {
   text-shadow: 0 0 20px rgb(255, 255, 255);
 }
 
-.element {
-  background: url('image.png') no-repeat center center fixed;
-  background-size: cover;
-  background-position: center;
-}
+
 
 @media (max-width: 480px) {
+  body {
+    font-family: "Varela Round", "Quicksand", sans-serif;
+    background: url(image.png) no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden; /* Avoids horizontal scroll */
+    min-height: 100vh; /* More reliable on mobile */
+  }
+  
   h1 {
     font-size: 2em;
   }
@@ -117,15 +121,12 @@ p {
   footer p {
     font-size: 1em;
   }
-
+  
   .postcard, .postcard1 {
-    padding: 0.2em;
+    padding: 0.5em; /* Slightly increased for better spacing */
   }
   
-  .element {
-    background-size: 100% 100%; 
-    background-attachment: scroll; 
-  }
 }
+
 
 
