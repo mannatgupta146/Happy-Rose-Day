@@ -107,23 +107,28 @@ p {
   body {
     background: url(image.png) no-repeat center center fixed;
     background-size: cover;
-    overflow-x: hidden; /* Avoids horizontal scroll */
     min-height: 100vh;
   }
 
   h1 {
-    font-size: 2em; /* Smaller heading for mobile */
+    font-size: 2em; 
+    margin-top: 5vh;
   }
 
   footer p {
-    font-size: 1em; /* Smaller footer text */
+    font-size: 1.5em; 
   }
 
   .postcard {
     width: 90%;
+    max-width: 350px; 
+    height: auto; 
+    min-height: 350px; 
     padding: 1.5em;
     transform: none;
-    margin-top: 12vh; /* Increased gap */
+    margin-top: 12vh; 
+    box-sizing: border-box; 
+    text-align: justify;
   }
 
   .postcard1 {
@@ -131,10 +136,12 @@ p {
     left: 50%;
     transform: translateX(-50%);
     height: auto;
-    margin-top: 12vh; /* Increased gap */
+    margin-top: 12vh; 
+    box-sizing: border-box; 
   }
 
   .mail_stamp {
-    width: 60px; /* Reduce the size of mail stamp for mobile */
+    width: 60px; 
   }
 }
+
