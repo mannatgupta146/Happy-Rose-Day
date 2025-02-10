@@ -107,28 +107,29 @@ p {
   body {
     background: url(image.png) no-repeat center center fixed;
     background-size: cover;
+    overflow-x: hidden;
     min-height: 100vh;
   }
 
   h1 {
-    font-size: 2em; 
-    margin-top: 5vh;
+    font-size: 2em;
+    margin-top: 10vh;
   }
 
   footer p {
-    font-size: 1.5em; 
+    font-size: 1em;
   }
 
   .postcard {
     width: 90%;
-    max-width: 350px; 
-    height: auto; 
-    min-height: 350px; 
+    max-width: 350px;
+    min-height: 450px;
     padding: 1.5em;
-    transform: none;
-    margin-top: 12vh; 
-    box-sizing: border-box; 
+    margin-top: 12vh;
+    box-sizing: border-box;
     text-align: justify;
+    overflow: hidden;
+    word-wrap: break-word;
   }
 
   .postcard1 {
@@ -136,12 +137,12 @@ p {
     left: 50%;
     transform: translateX(-50%);
     height: auto;
-    margin-top: 12vh; 
-    box-sizing: border-box; 
+    margin-top: 12vh;
+    box-sizing: border-box;
   }
 
   .mail_stamp {
-    width: 60px; 
+    width: 60px;
   }
 }
 
