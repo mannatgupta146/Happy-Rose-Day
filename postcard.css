@@ -113,7 +113,7 @@ p {
 
   h1 {
     font-size: 2em;
-    margin-top: 10vh;
+    margin-top: 5vh;
   }
 
   footer p {
@@ -123,9 +123,9 @@ p {
   .postcard {
     width: 90%;
     max-width: 350px;
-    min-height: 450px;
+    min-height: 550px;
     padding: 1.5em;
-    margin-top: 12vh;
+    margin-top: 10vh;
     box-sizing: border-box;
     text-align: justify;
     overflow: hidden;
@@ -137,7 +137,7 @@ p {
     left: 50%;
     transform: translateX(-50%);
     height: auto;
-    margin-top: 12vh;
+    margin-top: 10vh;
     box-sizing: border-box;
   }
 
